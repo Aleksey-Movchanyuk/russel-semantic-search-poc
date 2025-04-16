@@ -1,3 +1,4 @@
-tqdm
-qdrant_client
-sentence_transformers
+numpy==1.24.4
+tqdm==4.67.1
+qdrant_client==1.13.3
+sentence_transformers==4.1.0
