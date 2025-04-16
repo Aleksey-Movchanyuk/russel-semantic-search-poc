@@ -1,0 +1,13 @@
+
+
+services:
+  qdrant:
+    build:
+      context: ""
+      dockerfile: docker/qdrant/qdrant.dockerfile
+    container_name: qdrant
+
+networks:
+
+
+volumes:
