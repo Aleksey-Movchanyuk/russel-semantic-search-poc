@@ -3,11 +3,12 @@
 services:
   qdrant:
     build:
-      context: ""
       dockerfile: docker/qdrant/qdrant.dockerfile
     container_name: qdrant
+    ports:
+      - "6333:6333"
 
-networks:
+#networks:
 
 
-volumes:
+#volumes:
