@@ -11,7 +11,7 @@ client = QdrantClient(host="localhost", port=6333)
 
 # ---- QUERY ----
 query = "unlawful entry and intent to commit a crime"
-query_vector = model.encode(query).tolist()  # 👈 ensure it's a plain list
+query_vector = model.encode(query).tolist()
 
 # ---- SEARCH ----
 results = client.search(
